@@ -19,7 +19,7 @@ function Contact() {
           <div className="card shadow rounded text-center p-4 h-100 contact-card">
             <i className="fas fa-phone fa-3x text-primary mb-3"></i>
             <h5 className="fw-bold mb-2">Call Us</h5>
-            <p className="text-muted mb-0">📱 Mobile: <a href="tel:+918391809802" className="text-decoration-none">8391809802</a></p>
+            <p className="text-muted mb-0">📱 Mobile: <a href="tel:+918391809802" className="text-decoration-none">+91-8391809802</a></p>
           </div>
         </div>
         <div className="col-md-6 col-lg-4">
