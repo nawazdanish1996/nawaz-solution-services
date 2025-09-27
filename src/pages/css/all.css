@@ -1,0 +1,49 @@
+.full-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Home */
+section.bg-primary {
+  background: linear-gradient(135deg, #0062cc, #004085);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Services */
+.service-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.step-box {
+  border-radius: 10px;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.step-box:hover {
+  background: #e9ecef;
+  transform: scale(1.05);
+}
+
+/* Contact */
+
+/* Contact Cards */
+.contact-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
