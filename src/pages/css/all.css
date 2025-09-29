@@ -5,6 +5,58 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+/* app */
+/* 🔹 Navbar Link Styling */
+.custom-nav-link {
+  font-weight: 500;
+  color: #333 !important;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect: Text Color */
+.custom-nav-link:hover {
+  color: #0d6efd !important; /* Bootstrap primary blue */
+}
+
+/* Underline Animation */
+.custom-nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #0d6efd;
+  transition: width 0.3s ease-in-out;
+}
+
+.custom-nav-link:hover::after {
+  width: 100%;
+}
+
+/* 🔹 WhatsApp Button */
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.btn-whatsapp {
+  background-color: #25d366; /* WhatsApp green */
+  border: none;
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px; /* Rounded pill style */
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d; /* Darker green */
+  transform: scale(1.05); /* Slight grow effect */
+}
+
+
 /* Home */
 section.bg-primary {
   background: linear-gradient(135deg, #0062cc, #004085);

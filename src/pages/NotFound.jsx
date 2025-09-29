@@ -8,7 +8,7 @@ export default function NotFound() {
     <main className="notfound-page d-flex flex-column align-items-center justify-content-center text-center px-3 py-5">
       <div className="card notfound-card p-4 p-md-5 shadow-sm">
         <div className="d-flex flex-column flex-md-row align-items-center gap-4">
-          {/* Left: Big code + message */}
+
           <div className="text-block flex-grow-1">
             <div className="display-1 fw-bold notfound-code" aria-hidden="true">404</div>
             <h1 className="h3 fw-bold mt-2">Page Not Found</h1>
